@@ -1,0 +1,28 @@
+name: waiting_room_app
+description: Atelier 6 - File d'attente résiliente (architecture en couches, offline, pagination, Realtime).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.1
+  supabase_flutter: ^2.7.0
+  geolocator: ^13.0.1
+  connectivity_plus: ^6.0.3
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  uuid: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  sqflite_common_ffi: ^2.3.3
+
+flutter:
+  uses-material-design: true
